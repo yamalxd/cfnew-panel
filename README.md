@@ -1,6 +1,6 @@
 # CFnew 独立面板
 
-[![部署到 Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FbyJoey%2Fcfnew-panel&project-name=cfnew-panel&repository-name=cfnew-panel)
+[![部署到 Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyamalxd%2Fcfnew-panel&project-name=cfnew-panel&repository-name=cfnew-panel)
 [![Node.js 22](https://img.shields.io/badge/Node.js-22-43853d)](https://nodejs.org/)
 [![源码许可](https://img.shields.io/badge/源码许可-署名与禁止冒充原创-blue)](./LICENSE)
 
@@ -10,7 +10,7 @@
 
 ## 一键部署
 
-1. 先部署 [CFnew 精简内核](https://github.com/byJoey/cfnew/tree/core-only)，设置 Worker 变量 `u` 为自己的 UUID。需要在线保存配置时，绑定 KV，名称填 `C` 或 `c`。已有用户保留原 UUID 和 KV 绑定，兼容日期用 `2026-01-20`。
+1. 先部署 [CFnew 精简内核](https://github.com/yamalxd/cfnew/tree/core-only)，设置 Worker 变量 `u` 为自己的 UUID。需要在线保存配置时，绑定 KV，名称填 `C` 或 `c`。已有用户保留原 UUID 和 KV 绑定，兼容日期用 `2026-01-20`。
 2. 点击上面的 Deploy 按钮，登录 Vercel，按页面提示连接 GitHub 并创建自己的仓库副本。
 3. Application Preset（旧界面叫 Framework）选择 **Other**；如果自动识别成 Node，请改为 Other。根目录保持仓库根目录，无需手填构建命令。点击 Deploy，等待完成。
 4. 打开分配的面板域名，填写自己的 Worker 域名与 UUID 或自定义路径，即可连接。
@@ -78,7 +78,7 @@ Clash： /sub?host=your-worker.example.com&uuid=你的UUID&target=clash
 Node.js 22：
 
 ```bash
-git clone https://github.com/byJoey/cfnew-panel.git
+git clone https://github.com/yamalxd/cfnew-panel.git
 cd cfnew-panel
 npm start
 # 可选：固定自己的 Worker
